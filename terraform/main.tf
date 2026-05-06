@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "bs-101013"
+    bucket = "quiz-app-timpimcfly"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
